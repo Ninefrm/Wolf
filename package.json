@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Samuelfrm/Wolf/issues"
   },
-  "homepage": "https://github.com/Samuelfrm/Wolf#readme"
+  "homepage": "https://github.com/Samuelfrm/Wolf#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
