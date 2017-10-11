@@ -16,7 +16,7 @@ var confirm = new Confirm('¿Funciono?')
 var confirm = new Confirm('¿Funciono?')
   .run()
   .then(function(answer) {
-    console.log(answer);
+    res.send(answer);
   });
 
 app.listen(port, function () {
