@@ -13,6 +13,11 @@ var confirm = new Confirm('¿Funciono?')
   .ask(function(answer){
     console.log(answer);
   });
+var confirm = new Confirm('¿Funciono?')
+  .run()
+  .then(function(answer) {
+    console.log(answer);
+  });
 
 app.listen(port, function () {
   console.log('Example app listening on port 3000!');
